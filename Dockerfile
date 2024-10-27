@@ -1,4 +1,4 @@
-FROM tomcat:8.5-jdk22
+FROM tomcat:8.5-jdk22.0.2
 
 # Establecer el directorio de trabajo
 WORKDIR /usr/local/tomcat/webapps/
