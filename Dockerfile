@@ -12,7 +12,7 @@ RUN ls -l /usr/local/tomcat/webapps/Parcial2.1/
 # Copiar el conector de MySQL y JSTL a la carpeta de librerías de Tomcat 
 # Cambiar el nombre de la carpete inportante y poner correctamente el nombre de los drivers
 COPY ./Parcial2.1/WEB-INF/lib/mysql-connector-j-8.2.0.jar /usr/local/tomcat/lib/
-COPY ./Parcial2.1/WEB-INF/lib/jstl-1.2.jar /usr/local/tomcat/lib/
+COPY ./Parcial2.1/WEB-INF/lib/jstl-1.2.5.jar /usr/local/tomcat/lib/
 
 # Exponer el puerto 8080
 EXPOSE 8080
