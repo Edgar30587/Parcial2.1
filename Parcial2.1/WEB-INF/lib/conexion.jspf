@@ -1,5 +1,5 @@
 <sql:setDataSource var="parcial2"
     driver="com.mysql.cj.jdbc.Driver"
-    url="jdbc:mysql://localhost:3306/bdprueba"
-    user="root"
-    password=""/>
+    url="jdbc:mysql://bpm4sf7kef9rfq2lxmy1-mysql.services.clever-cloud.com:3306/bpm4sf7kef9rfq2lxmy1"
+    user="uh3quy2gcchhjvct"
+    password="n27sYsS3Is7FV4JmrBRD"/>
