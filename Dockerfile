@@ -18,4 +18,4 @@ COPY ./Parcial2.1/WEB-INF/lib/jstl-1.2.jar /usr/local/tomcat/lib/
 EXPOSE 8080
 
 # Comando de inicio de Tomcat
-CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run"]
